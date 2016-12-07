@@ -2,9 +2,9 @@ package transport
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/roncohen/faye-go/utils"
+	"git.xuvasi.com/gocode/faye-go/utils"
 	"io"
-	"github.com/roncohen/faye-go/protocol"
+	"git.xuvasi.com/gocode/faye-go/protocol"
 )
 
 const WebSocketConnectionPriority = 10

@@ -4,8 +4,8 @@ import (
 	// "code.google.com/p/go.net/websocket"
 	"encoding/json"
 	"github.com/gorilla/websocket"
-	"github.com/roncohen/faye-go"
-	"github.com/roncohen/faye-go/transport"
+	"git.xuvasi.com/gocode/faye-go"
+	"git.xuvasi.com/gocode/faye-go/transport"
 	"log"
 	"net/http"
 )
