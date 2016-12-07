@@ -1,9 +1,11 @@
 package transport
 
 import (
-	"github.com/gorilla/websocket"
-	"git.xuvasi.com/gocode/faye-go/utils"
 	"io"
+
+	"github.com/gorilla/websocket"
+
+	"git.xuvasi.com/gocode/faye-go/utils"
 	"git.xuvasi.com/gocode/faye-go/protocol"
 )
 
@@ -60,8 +62,10 @@ func WebsocketServer(m Server) func(*websocket.Conn) {
 			}
 
 			if arr := data.([]interface{}); len(arr) == 0 {
+				m.Logger().Debugf("No data received.")
 				ws.WriteJSON([]string{})
 			} else {
+				m.Logger().Debugf("Handling request.")
 				m.HandleRequest(data, &wsConn)
 			}
 		}
