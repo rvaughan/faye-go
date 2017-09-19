@@ -9,8 +9,8 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"git.xuvasi.com/gocode/faye-go"
-	"git.xuvasi.com/gocode/faye-go/transport"
+	"github.com/rvaughan/faye-go"
+	"github.com/rvaughan/faye-go/transport"
 )
 
 /* HTTP handler that can be dropped into the standard http handlers list */

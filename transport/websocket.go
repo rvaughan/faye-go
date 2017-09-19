@@ -5,8 +5,8 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"git.xuvasi.com/gocode/faye-go/utils"
-	"git.xuvasi.com/gocode/faye-go/protocol"
+	"github.com/rvaughan/faye-go/utils"
+	"github.com/rvaughan/faye-go/protocol"
 )
 
 const WebSocketConnectionPriority = 10

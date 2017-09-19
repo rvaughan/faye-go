@@ -2,7 +2,7 @@ package transport
 
 import (
 	"encoding/json"
-	"git.xuvasi.com/gocode/faye-go/protocol"
+	"github.com/rvaughan/faye-go/protocol"
 	"net/http"
 )
 

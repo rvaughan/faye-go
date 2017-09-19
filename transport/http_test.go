@@ -1,7 +1,7 @@
 package transport
 
 import (
-	"git.xuvasi.com/gocode/faye-go/protocol"
+	"github.com/rvaughan/faye-go/protocol"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"git.xuvasi.com/gocode/faye-go/utils"
+	"github.com/rvaughan/faye-go/utils"
 	"sync"
 )
 

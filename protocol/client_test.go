@@ -1,8 +1,8 @@
 package protocol_test
 
 import (
-	"git.xuvasi.com/gocode/faye-go/memory"
-	. "git.xuvasi.com/gocode/faye-go/protocol"
+	"github.com/rvaughan/faye-go/memory"
+	. "github.com/rvaughan/faye-go/protocol"
 	"log"
 	"os"
 	"testing"

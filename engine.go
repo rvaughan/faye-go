@@ -2,10 +2,10 @@ package faye
 
 import (
 	"fmt"
-	"git.xuvasi.com/gocode/faye-go/transport"
-	"git.xuvasi.com/gocode/faye-go/utils"
-	"git.xuvasi.com/gocode/faye-go/memory"
-	"git.xuvasi.com/gocode/faye-go/protocol"
+	"github.com/rvaughan/faye-go/transport"
+	"github.com/rvaughan/faye-go/utils"
+	"github.com/rvaughan/faye-go/memory"
+	"github.com/rvaughan/faye-go/protocol"
 	"strconv"
 )
 

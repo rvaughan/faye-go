@@ -1,8 +1,7 @@
 package transport
 
 import (
-	"git.xuvasi.com/gocode/faye-go/protocol"
-	// "git.xuvasi.com/gocode/faye-go/utils"
+	"github.com/rvaughan/faye-go/protocol"
 )
 
 type InternalConnection struct {

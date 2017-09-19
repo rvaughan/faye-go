@@ -3,8 +3,8 @@ package memory
 import (
 	creg "github.com/roncohen/cleaningRegister"
 	"time"
-	"git.xuvasi.com/gocode/faye-go/protocol"
-	"git.xuvasi.com/gocode/faye-go/utils"
+	"github.com/rvaughan/faye-go/protocol"
+	"github.com/rvaughan/faye-go/utils"
 )
 
 type ClientRegister struct {

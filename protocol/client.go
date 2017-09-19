@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"git.xuvasi.com/gocode/faye-go/utils"
+	"github.com/rvaughan/faye-go/utils"
 	"reflect"
 	"sync"
 	"time"
